@@ -1,0 +1,120 @@
+
+
+
+section {
+padding-top : 10em;
+background: #EFEFEF; 
+font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+header {
+color : white;
+font-size: 1.5em;
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+background:  #333;
+ }
+
+footer { 
+padding-bottom:3em;
+text-align: center;
+font-size: 1.5em; 
+font-weight: bold;
+font-family: 'Open Sans Condensed', sans-serif;
+background: #333;
+ }
+
+aside {
+
+text-align: center; }
+
+
+/* Style concernant les tableaux  */
+table {
+text-align: center;
+font-size: 2em; 
+margin: auto;
+}
+td
+{
+text-align :center;
+}
+body{
+background:#333;
+}
+
+/* Style concernant la barre de navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #FFABA0;
+    color: white;
+}
+
+
+/* style des 3 images en page d'accueil */
+.trio {
+background-size: cover;
+width: 300px;
+height: 200px;
+}
+/* Style concernant les boutons des formulaire */
+#bouton {
+text-align :center;
+}
+/* Style concernant les bannières */
+.ban {
+
+max-width: 100%;
+	height: 80;
+}	
+
+
+#conteneur{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+^
+.card{
+  flex-basis: 250px;
+    flex-grow: 1;
+   	
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	padding: 20px;
+}
+
+.card img {
+  width: 200px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+h2{
+text-align:center;
+font-size: 50px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
